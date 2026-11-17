@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Privacy Policy – Copyloop</title>
+<meta name="description" content="How the Copyloop Chrome extension handles your data: your copy history stays on your device." />
+<link rel="icon" href="assets/icon32.png" type="image/png" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="./">
+      <svg viewBox="0 0 128 128" aria-hidden="true"><rect width="128" height="128" rx="28" fill="#0B3D2E"/><path d="M88 42a32 32 0 1 0 0 44" fill="none" stroke="#2BD49F" stroke-width="14" stroke-linecap="round"/><circle cx="92" cy="40" r="9" fill="#fff"/></svg>
+      Copyloop
+    </a>
+  </div>
+</header>
+
+<main class="legal">
+  <h1>Privacy Policy</h1>
+  <p class="updated">Last updated: November 17, 2026</p>
+
+  <h2>Summary</h2>
+  <p>Copyloop keeps your copy history on your own device, and we never receive, sell or share it. The extension has no analytics, no ads and no tracking. The only things that go over the internet are price and plan-status checks with our payment provider, ExtensionPay, and, if you buy Pro, the email and payment details you give ExtensionPay and Stripe.</p>
+  <p>This policy is published by <span data-owner>Your Name</span> ("we"). It applies to the Copyloop extension for Google Chrome.</p>
+
+  <h2>What the extension saves, and where</h2>
+  <p>Each time you copy something in a web page, the extension saves one entry in Chrome's local extension storage on your computer. That storage belongs to your Chrome profile on that device and is not synced to your other devices.</p>
+  <p>Each entry contains:</p>
+  <ul>
+    <li>the text you copied, up to 5,000 characters</li>
+    <li>the address (URL) and title of the page you copied it from, and the site name</li>
+    <li>the date and time of the copy</li>
+    <li>an automatic tag (text, link, contact or code)</li>
+  </ul>
+  <p>The extension also saves text you copy with a website's own "Copy" button, and links or image addresses you copy with its "Copy and save" menu items. It saves every copy on every plan, up to 10,000 entries; beyond that, the oldest entry is removed when a new one is saved.</p>
+  <p>Your settings (light or dark theme, and whether address-bar saving is on) are stored on the same device.</p>
+
+  <h2>What it never saves</h2>
+  <p>The extension skips copies that are likely to be secrets, even when the page allows copying them:</p>
+  <ul>
+    <li>anything copied from a password field, a one-time-code field or a payment-card field</li>
+    <li>text that looks like a payment card number</li>
+    <li>text that looks like a common API key, access token or private key</li>
+    <li>text that looks like a randomly generated password</li>
+    <li>anything copied on password-manager websites, such as 1Password, Bitwarden, LastPass, Dashlane, Keeper, NordPass, Proton Pass and Google Password Manager</li>
+  </ul>
+  <p>These checks are automatic and can't catch every secret. You can delete any entry at any time.</p>
+  <p>It also does not save text a page puts on your clipboard without you clicking or pressing a key, or anything you copy in other programs on your computer, apart from the one case described in the next section.</p>
+
+  <h2>Optional: saving address-bar copies</h2>
+  <p>This feature is off unless you turn it on in Settings. Chrome's address bar doesn't tell extensions when you copy from it, so the extension has to check the clipboard instead.</p>
+  <p>When you turn it on, Chrome asks you to allow the extension to read data you copy and paste, and to read your tabs. While it is on:</p>
+  <ul>
+    <li>the extension checks the clipboard about once a second</li>
+    <li>if the clipboard holds a web address identical to the page in your active tab, that address is saved like any other copy</li>
+    <li>anything else on the clipboard, including what you copy in other programs, is ignored immediately: it is not stored, logged or sent anywhere</li>
+  </ul>
+  <p>Turning the feature off stops the checks and gives the two permissions back to Chrome.</p>
+
+  <h2>Payments and plan status</h2>
+  <p>Pro is sold through ExtensionPay (extensionpay.com), and payments are processed by Stripe. We never see or store your card details.</p>
+  <ul>
+    <li><strong>Plans:</strong> Pro is sold as a monthly or yearly subscription, or as a one-time lifetime purchase.</li>
+    <li><strong>Purchase:</strong> you give your email and payment details on ExtensionPay's checkout page; Stripe processes the payment.</li>
+    <li><strong>What we can see:</strong> in our ExtensionPay account we see your email address, your plan and your payment status. We use them only to provide Pro and to answer your support requests.</li>
+    <li><strong>On your device:</strong> ExtensionPay stores a random identifier and your plan status in Chrome's sync storage, so Pro also works on your other computers signed in to the same Chrome profile. If you use Chrome sync, Google syncs this small record; your copy history is never part of it.</li>
+    <li><strong>Checks:</strong> when you open the extension's window, it asks ExtensionPay for the current prices and, if you have that identifier, your plan status. These requests contain no copy history.</li>
+  </ul>
+  <p>ExtensionPay's and Stripe's own privacy policies apply to the data you give them; see extensionpay.com and <a href="https://stripe.com/privacy">Stripe's privacy policy</a>.</p>
+
+  <h2>What leaves your device</h2>
+  <p>Your copy history never leaves your device. This table lists everything that does.</p>
+  <table>
+    <thead><tr><th>Data</th><th>Sent to</th><th>When</th><th>Why</th></tr></thead>
+    <tbody>
+      <tr><td>Copy history (text, page addresses, titles, times)</td><td>Nobody</td><td>Never</td><td>Stays in Chrome's local storage</td></tr>
+      <tr><td>Extension ID and a random user identifier</td><td>ExtensionPay</td><td>When you open the extension's window</td><td>To show prices and your plan status</td></tr>
+      <tr><td>Email address</td><td>ExtensionPay</td><td>When you buy Pro or restore a purchase</td><td>To link your purchase to you</td></tr>
+      <tr><td>Payment details</td><td>Stripe</td><td>When you buy Pro</td><td>To process the payment</td></tr>
+      <tr><td>Plan status and random identifier</td><td>Google, through Chrome sync, only if you use Chrome sync</td><td>When ExtensionPay updates it</td><td>So Pro works on your other computers</td></tr>
+    </tbody>
+  </table>
+  <p>We do not sell your data, use it for advertising, use it to decide creditworthiness, or transfer it for any purpose other than running the extension.</p>
+
+  <h2>Keeping and deleting your data</h2>
+  <ul>
+    <li><strong>One entry:</strong> hover over it in the extension's window and click the trash icon.</li>
+    <li><strong>Everything:</strong> open Settings and choose Clear history.</li>
+    <li><strong>Uninstalling:</strong> Chrome deletes the extension's local storage, including your whole history and settings.</li>
+    <li><strong>Automatic limit:</strong> once you have 10,000 entries, the oldest is removed each time a new one is saved.</li>
+  </ul>
+  <p>On the free plan, entries from before today are hidden but not deleted, so they are there if you upgrade. Clear history deletes them too.</p>
+  <p>ExtensionPay and Stripe keep purchase records as their own policies require. To have your ExtensionPay customer record deleted, contact us at the address below.</p>
+
+  <h2>Other information</h2>
+  <p><strong>Chrome Web Store User Data Policy.</strong> Copyloop's use of the information it handles complies with the Chrome Web Store User Data Policy, including the Limited Use requirements.</p>
+  <p><strong>Children.</strong> The extension is not directed at children under 13, and we do not knowingly collect personal information from them.</p>
+  <p><strong>Changes.</strong> If this policy changes, we will update the date at the top. If a change affects what is saved or shared, we will also describe it in the extension's store listing.</p>
+  <p><strong>Contact.</strong> Questions or deletion requests: <a data-email href="#">you@example.com</a>.</p>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© <span data-year>2026</span> <span data-owner>Your Name</span> · Copyloop</span>
+    <nav aria-label="Footer">
+      <a href="./">Home</a>
+      <a href="terms.html">Terms</a>
+      <a href="terms.html#refunds">Refunds</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="site.js"></script>
+</body>
+</html>

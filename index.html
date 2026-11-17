@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Copyloop – Clipboard history with source, for Chrome</title>
+<meta name="description" content="Copyloop is a Chrome extension that remembers everything you copy on the web, with the page it came from. Browse, search and copy it again. Private: your history stays on your device." />
+<link rel="icon" href="assets/icon32.png" type="image/png" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="./">
+      <svg viewBox="0 0 128 128" aria-hidden="true"><rect width="128" height="128" rx="28" fill="#0B3D2E"/><path d="M88 42a32 32 0 1 0 0 44" fill="none" stroke="#2BD49F" stroke-width="14" stroke-linecap="round"/><circle cx="92" cy="40" r="9" fill="#fff"/></svg>
+      Copyloop
+    </a>
+    <nav class="nav-links" aria-label="Main">
+      <a href="#features">Features</a>
+      <a href="#privacy">Privacy</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <a class="btn small primary" data-store href="#pricing">Add to Chrome</a>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <span class="eyebrow">Chrome extension</span>
+        <h1>Never lose what you copied, <em>or where it came from.</em></h1>
+        <p class="lead">Copyloop keeps a searchable history of everything you copy in Chrome, saved with the page, the site and the time. Find it days later and copy it again in one click.</p>
+        <div class="cta">
+          <a class="btn primary" data-store href="#pricing">Add to Chrome, it's free</a>
+          <a class="btn" href="#features">See how it works</a>
+        </div>
+        <p class="note">Free forever plan · No account needed · Your history never leaves your device</p>
+      </div>
+      <div class="shot">
+        <img src="assets/popup.png" alt="The Copyloop popup showing recent copies, each with its site, a tag and the time" width="340" />
+      </div>
+    </div>
+  </section>
+
+  <section id="features" class="alt">
+    <div class="wrap">
+      <h2>Your clipboard, with a memory</h2>
+      <p class="sub">Chrome forgets what you copied as soon as you copy something else. Copyloop remembers all of it, and the page each copy came from.</p>
+      <div class="grid">
+        <div class="card">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="13" height="13" x="9" y="9" rx="2"/><path d="M5 15c-1.1 0-2-.9-2-2V5c0-1.1.9-2 2-2h8c1.1 0 2 .9 2 2"/></svg></div>
+          <h3>Saves every copy</h3>
+          <p>Ctrl+C, right-click Copy, and website "Copy" buttons on AI chats, code blocks and share links.</p>
+        </div>
+        <div class="card">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></div>
+          <h3>Knows the source</h3>
+          <p>Each copy keeps the page, site and time. One click takes you back to where you found it.</p>
+        </div>
+        <div class="card">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></div>
+          <h3>Instant search</h3>
+          <p>Search copied text, sites and page titles. Start typing anywhere in the popup.</p>
+        </div>
+        <div class="card">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg></div>
+          <h3>Any day, any date</h3>
+          <p>Browse your copies week by week, or jump straight to a date with the calendar.</p>
+        </div>
+        <div class="card">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16M4 12h10M4 17h7"/></svg></div>
+          <h3>Tidy by itself</h3>
+          <p>Copies are tagged automatically as text, link, contact or code, so you can spot them at a glance.</p>
+        </div>
+        <div class="card">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="14" x="2" y="5" rx="2"/><path d="M6 9h.01M10 9h.01M14 9h.01M18 9h.01M8 15h8"/></svg></div>
+          <h3>Keyboard friendly</h3>
+          <p>Alt+Shift+V opens your history. Arrow keys move, Enter copies, Delete removes, with undo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>How it works</h2>
+      <p class="sub">There's nothing to set up. Install it and keep working as usual.</p>
+      <ol class="steps">
+        <li><strong>Copy as usual</strong><span>Copy text on any website, the way you always do.</span></li>
+        <li><strong>Copyloop saves it</strong><span>With the page, the site and the time, on your own device.</span></li>
+        <li><strong>Find it later</strong><span>Open Copyloop, search or browse, and copy it again in one click.</span></li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="privacy" class="alt">
+    <div class="wrap privacy-band">
+      <div>
+        <h2>Private by design</h2>
+        <p class="sub" style="margin-bottom:0">What you copy is personal. Copyloop is built so that it stays yours.</p>
+      </div>
+      <ul class="checks">
+        <li>Your history is stored only on your device. It's never uploaded, and we never see it.</li>
+        <li>No account, no analytics, no ads, no tracking.</li>
+        <li>Never saved: password fields, one-time codes, card numbers, common API keys and tokens, and anything copied on password-manager websites.</li>
+        <li>Delete one copy or your whole history at any time.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="pricing">
+    <div class="wrap">
+      <h2>Simple pricing</h2>
+      <p class="sub">Every copy is always saved, on every plan. The free plan shows today's copies; Pro opens your whole history.</p>
+      <div class="plans">
+        <div class="plan">
+          <h3>Free</h3>
+          <div class="price">$0</div>
+          <div class="per">forever</div>
+          <ul>
+            <li>Every copy saved on your device</li>
+            <li>Today's copies, searchable</li>
+            <li>All capture features</li>
+          </ul>
+        </div>
+        <div class="plan">
+          <h3>Monthly</h3>
+          <div class="price">$1.99<small>/mo</small></div>
+          <div class="per">Cancel anytime</div>
+          <ul>
+            <li>Your full history</li>
+            <li>Search everything</li>
+            <li>Jump to any date</li>
+          </ul>
+        </div>
+        <div class="plan best">
+          <span class="badge">Best value · save 37%</span>
+          <h3>Yearly</h3>
+          <div class="price">$14.99<small>/yr</small></div>
+          <div class="per">$1.25 a month, billed yearly</div>
+          <ul>
+            <li>Everything in Monthly</li>
+            <li>Lowest price per month</li>
+          </ul>
+        </div>
+        <div class="plan">
+          <h3>Lifetime</h3>
+          <div class="price">$24.99</div>
+          <div class="per">Pay once, yours forever</div>
+          <ul>
+            <li>Everything in Pro</li>
+            <li>No subscription</li>
+          </ul>
+        </div>
+      </div>
+      <p class="fine">Upgrade from inside the extension. Payments are processed securely by Stripe through ExtensionPay. Prices in US dollars; taxes may apply. See the <a href="terms.html#refunds">refund and cancellation policy</a>.</p>
+    </div>
+  </section>
+
+  <section id="faq" class="alt">
+    <div class="wrap faq">
+      <h2>Questions</h2>
+      <details>
+        <summary>Does Copyloop upload what I copy?</summary>
+        <p>No. Your history is stored in Chrome's local storage on your device and is never sent to us or anyone else. The only network requests are price and plan-status checks with our payment provider, which never include your copies.</p>
+      </details>
+      <details>
+        <summary>What happens to older copies on the free plan?</summary>
+        <p>They're kept on your device, just hidden. The free plan shows what you copied today. If you upgrade, your whole history appears straight away.</p>
+      </details>
+      <details>
+        <summary>Does it work with "Copy" buttons on websites?</summary>
+        <p>Yes. Copy buttons on AI chats, code blocks, share links and similar are saved, as long as you clicked them.</p>
+      </details>
+      <details>
+        <summary>Can it save links I copy from the address bar?</summary>
+        <p>Yes, as an option you turn on in Settings. Chrome will ask to let Copyloop read the clipboard, and only addresses matching the open tab are kept.</p>
+      </details>
+      <details>
+        <summary>How do I cancel or get a refund?</summary>
+        <p>Subscriptions can be cancelled anytime, and you keep Pro until the end of the period you paid for. Full details are in the <a href="terms.html#refunds">refund and cancellation policy</a>.</p>
+      </details>
+      <details>
+        <summary>I paid on another computer. How do I get Pro here?</summary>
+        <p>Open Copyloop's settings and choose "Restore your purchase", then enter the email you paid with.</p>
+      </details>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© <span data-year>2026</span> <span data-owner>Your Name</span> · Copyloop</span>
+    <nav aria-label="Footer">
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+      <a href="terms.html#refunds">Refunds</a>
+      <a data-email href="#">Contact</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="site.js"></script>
+</body>
+</html>
