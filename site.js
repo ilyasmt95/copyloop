@@ -1,7 +1,7 @@
 // ===== Edit these three lines, then publish =====
 const CONTACT_EMAIL = 'ilyessmaatalla95@gmail.com';      // your support email
 const OWNER_NAME = 'Ilyess Maatalla';               // you, or your company
-const STORE_URL = '';                         // Chrome Web Store link once it exists
+const STORE_URL = 'https://chromewebstore.google.com/detail/eimnfljmhngmdjefmbgdmhkdpdpiopgo'; // Chrome Web Store link
 // ================================================
 
 document.querySelectorAll('[data-email]').forEach((el) => {
